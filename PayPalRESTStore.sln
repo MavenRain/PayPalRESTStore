@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PayPalRESTStore", "PayPalRESTStore", "{65F5BD9B-5A87-48F5-BCF1-1B086F26283A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PayPalRESTStore.Shared", "PayPalRESTStore\PayPalRESTStore.Shared\PayPalRESTStore.Shared.vcxitems", "{F796BB82-8418-4041-B6F7-3E91660B49D7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PayPalRESTStore.Windows", "PayPalRESTStore\PayPalRESTStore.Windows\PayPalRESTStore.Windows.vcxproj", "{77C05291-A182-4D96-8429-D1ECE3B65F81}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PayPalRESTStore.WindowsPhone", "PayPalRESTStore\PayPalRESTStore.WindowsPhone\PayPalRESTStore.WindowsPhone.vcxproj", "{454F5D3B-AD74-4490-86A6-650B1F012BE9}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		PayPalRESTStore\PayPalRESTStore.Shared\PayPalRESTStore.Shared.vcxitems*{454f5d3b-ad74-4490-86a6-650b1f012be9}*SharedItemsImports = 4
+		PayPalRESTStore\PayPalRESTStore.Shared\PayPalRESTStore.Shared.vcxitems*{77c05291-a182-4d96-8429-d1ece3b65f81}*SharedItemsImports = 4
+		PayPalRESTStore\PayPalRESTStore.Shared\PayPalRESTStore.Shared.vcxitems*{f796bb82-8418-4041-b6f7-3e91660b49d7}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Debug|ARM.ActiveCfg = Debug|ARM
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Debug|ARM.Build.0 = Debug|ARM
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Debug|ARM.Deploy.0 = Debug|ARM
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Debug|Win32.ActiveCfg = Debug|Win32
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Debug|Win32.Build.0 = Debug|Win32
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Debug|Win32.Deploy.0 = Debug|Win32
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Debug|x64.ActiveCfg = Debug|x64
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Debug|x64.Build.0 = Debug|x64
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Debug|x64.Deploy.0 = Debug|x64
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Release|ARM.ActiveCfg = Release|ARM
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Release|ARM.Build.0 = Release|ARM
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Release|ARM.Deploy.0 = Release|ARM
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Release|Win32.ActiveCfg = Release|Win32
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Release|Win32.Build.0 = Release|Win32
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Release|Win32.Deploy.0 = Release|Win32
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Release|x64.ActiveCfg = Release|x64
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Release|x64.Build.0 = Release|x64
+		{77C05291-A182-4D96-8429-D1ECE3B65F81}.Release|x64.Deploy.0 = Release|x64
+		{454F5D3B-AD74-4490-86A6-650B1F012BE9}.Debug|ARM.ActiveCfg = Debug|ARM
+		{454F5D3B-AD74-4490-86A6-650B1F012BE9}.Debug|ARM.Build.0 = Debug|ARM
+		{454F5D3B-AD74-4490-86A6-650B1F012BE9}.Debug|ARM.Deploy.0 = Debug|ARM
+		{454F5D3B-AD74-4490-86A6-650B1F012BE9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{454F5D3B-AD74-4490-86A6-650B1F012BE9}.Debug|Win32.Build.0 = Debug|Win32
+		{454F5D3B-AD74-4490-86A6-650B1F012BE9}.Debug|Win32.Deploy.0 = Debug|Win32
+		{454F5D3B-AD74-4490-86A6-650B1F012BE9}.Debug|x64.ActiveCfg = Debug|Win32
+		{454F5D3B-AD74-4490-86A6-650B1F012BE9}.Release|ARM.ActiveCfg = Release|ARM
+		{454F5D3B-AD74-4490-86A6-650B1F012BE9}.Release|ARM.Build.0 = Release|ARM
+		{454F5D3B-AD74-4490-86A6-650B1F012BE9}.Release|ARM.Deploy.0 = Release|ARM
+		{454F5D3B-AD74-4490-86A6-650B1F012BE9}.Release|Win32.ActiveCfg = Release|Win32
+		{454F5D3B-AD74-4490-86A6-650B1F012BE9}.Release|Win32.Build.0 = Release|Win32
+		{454F5D3B-AD74-4490-86A6-650B1F012BE9}.Release|Win32.Deploy.0 = Release|Win32
+		{454F5D3B-AD74-4490-86A6-650B1F012BE9}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F796BB82-8418-4041-B6F7-3E91660B49D7} = {65F5BD9B-5A87-48F5-BCF1-1B086F26283A}
+		{77C05291-A182-4D96-8429-D1ECE3B65F81} = {65F5BD9B-5A87-48F5-BCF1-1B086F26283A}
+		{454F5D3B-AD74-4490-86A6-650B1F012BE9} = {65F5BD9B-5A87-48F5-BCF1-1B086F26283A}
+	EndGlobalSection
+EndGlobal
